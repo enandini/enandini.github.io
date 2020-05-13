@@ -19,6 +19,8 @@ img {
 	
 }
 
+
+
 #greet{
 	font-size: 27px;
 	font-weight:bolder;
@@ -26,6 +28,7 @@ img {
 
 p{
 	font-size: 20px;
+	
 }
 
 div {
@@ -66,7 +69,7 @@ ul{
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 10%;
+	bottom: 10px;
 	font-size: 20px;
 }
 
@@ -74,7 +77,7 @@ ul{
 
 .fa{
 
-	padding: 5px;
+	padding: 6px;
 	border-radius: 50%;
 	text-decoration: none;
 	border: 1px solid #585858;
@@ -119,7 +122,7 @@ ul#nav li a:hover{
 
 	.footer{
 		position: absolute;
-		bottom: 0;
+		/* bottom: 20%; */
 		font-size: 18px;
 	}
 
