@@ -65,12 +65,17 @@ ul{
 	justify-content: center;
 	display: flex; 
 }
+
+a{
+	color: #585858;
+}
 .footer{
 	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 10px;
 	font-size: 20px;
+	
 }
 
 /* social media icons */
