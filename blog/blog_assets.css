@@ -1,13 +1,28 @@
 body, input, select, textarea {
   color: #585858;
  /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'arial', sans-serif;
-  font-size: 16pt;
+  font-family: 'Courier New', 'Courier New', Courier, monospace;
+
   font-weight: 300;
   line-height: 1.7;
   margin: 100px
 }
 
+a{
+  text-decoration: none;
+  color: #585858;
+}
+
+/* pseudo class */
+a:hover{
+	text-decoration: underline;
+}
+
+
+/* main content pg */
+.main-inner a{
+  font-size: 20px;
+}
 
 /* function(i,html) {
     return html.replace(/(@\w+)/g, '<span class="twitterHandle">$&</span>');
