@@ -73,7 +73,6 @@ a{
 	position: absolute;
 	left: 0;
 	right: 0;
-	
 	font-size: 20px;
 	
 }
@@ -126,7 +125,7 @@ ul#nav li a:hover{
 	}
 
 	.footer{
-		position: absolute;
+
 		/* bottom: 20%; */
 		font-size: 18px;
 	}
