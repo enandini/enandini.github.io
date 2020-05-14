@@ -35,10 +35,12 @@ body{
     grid-template-rows: auto;
     grid-gap: 1.5rem;
     grid-template-areas: 
-    'img1 img2 img3 img4'
+    'img1 img8 img8 img4'
     'img1 img5 img5 img6'
-    'img10 img8 img9 img7'
-    'img11 img11 img12 img7'
+    'img2 img9 img3 img6'
+    'img7 img7 img7 img7'
+    
+   
     
 }
 
@@ -115,24 +117,25 @@ body{
 
 .img5{
     grid-area: img5;
-    min-height: 20rem;
+    /* min-height: 20rem; */
     background-image: url('images/fulls/05.jpg');
 }
 
 .img6{
     grid-area: img6;
+    min-height: 51.5rem;
     background-image: url('images/fulls/06.jpg');
 }
 
 .img7{
     grid-area: img7;
-    min-height: 51.5rem;
+    /* min-height: 51.5rem; */
     background-image: url('images/fulls/07.jpg');
 }
 
 .img8{
     grid-area: img8;
-    background-image: url('images/fulls/08.jpg');
+    background-image: url('images/fulls/08.png');
 }
 
 .img9{
@@ -140,7 +143,7 @@ body{
     background-image: url('images/fulls/09.jpg');
 }
 
-.img10{
+/* .img10{
     grid-area: img10;
     background-image: url('images/fulls/10.png');
 }
@@ -148,12 +151,78 @@ body{
 .img11{
     grid-area: img11;
     /* min-height: 51.5rem; */
-    background-image: url('images/fulls/11.png');
+    /* background-image: url('images/fulls/11.png');
 }
 
 .img12{
     grid-area: img12;
     background-image: url('images/fulls/12.jpg');
-}
+}  */
+ 
+
 
 /* responsive styles */
+
+@media screen and (max-width: 900px){
+
+    .image-gallery{
+
+    grid-template-areas: 
+        'img1 img1 img4 img4'
+        'img1 img1 img3 img3'
+        'img2 img2 img5 img5'
+        'img6 img6 img9 img9'
+        'img8 img8 img7 img7'
+        
+    }
+    .image-gallery a{
+        /* reduce size of images */
+        height: 20rem;
+    }
+
+    .img1{
+        min-height: 41.5rem;
+    }
+
+    .img6{
+        min-height: 51.5rem;
+    }
+    .img9{
+        min-height: 51.5rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 500px){
+
+    .image-gallery{
+
+    grid-template-areas: 
+        'img1 img1 img1 img1'
+        'img2 img2 img2 img2'
+        'img3 img3 img3 img3'
+        'img4 img4 img4 img4'
+        'img5 img5 img5 img5'
+        'img6 img6 img6 img6'
+        'img7 img7 img7 img7'
+        'img8 img8 img8 img8'
+        'img9 img9 img9 img9'
+    }
+    .image-gallery a,
+
+    .img6{
+        /* reduce size of images */
+        min-height: 30rem;
+        height: 30rem;
+    }
+
+
+    .img1{
+        min-height:50rem;
+    }
+
+  
+
+}
