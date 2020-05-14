@@ -21,6 +21,12 @@ body{
     display: flex;
 }
 
+.container .image-gallery a{
+    pointer-events: none;
+    cursor: default;
+}
+
+
 .container{
     width: 100%;
     max-width: 120rem;
@@ -201,6 +207,7 @@ body{
 
     grid-template-areas: 
         'img1 img1 img1 img1'
+        'img1 img1 img1 img1'
         'img2 img2 img2 img2'
         'img3 img3 img3 img3'
         'img4 img4 img4 img4'
@@ -210,17 +217,17 @@ body{
         'img8 img8 img8 img8'
         'img9 img9 img9 img9'
     }
-    .image-gallery a,
+    /* .image-gallery a,
 
     .img6{
         /* reduce size of images */
-        min-height: 30rem;
+        /* min-height: 30rem;
         height: 30rem;
-    }
+    } */ */
 
 
     .img1{
-        min-height:50rem;
+        min-height:51.5rem;
     }
 
   
